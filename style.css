@@ -1,0 +1,111 @@
+html{
+    width:1000px;
+    background: #222;
+    z-index: -2;
+    height: 1600px;
+}
+
+body{
+    display: block;
+    background: white;
+    z-index: -1;
+    width: 2000px;
+    height: 1500px;
+}
+
+main{
+    margin-left: 50px;
+    margin-top: 30px;
+}
+main ul{
+    display: table;
+    width: 100%;
+    table-layout: fixed;
+}
+
+main ul li:last-child{
+    float: right;
+    margin-right: 50px;
+    margin-left: 30px;
+}
+
+
+header{
+    /* position: relative; */
+    padding: 40px;
+    height: 40px;
+    background: #222;
+    display: inline-block;
+    width: 980px;
+}
+header img{
+    /* position: absolute; */
+    top: 50%;
+    height: 70px;
+    margin-top: -15px;
+    float:left;
+}
+header ul{
+    display: inline-block;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    margin-left: 20px;
+    text-decoration: none;
+}
+header li{
+    width: 100%;
+    display: inline;
+    padding: 20px;
+}
+
+body main li{
+    padding: 0px;
+    margin-left: 0px;
+    display: inline-block;
+    padding-top: 30px;
+}
+
+body main li img{
+    width: 100%;
+}
+body main li:nth-child(2){
+    padding-left: 30px;
+}
+
+section img{
+    padding-top: 0px;
+    float: left;
+    padding-right: 30px;
+}
+section {
+    /* padding-left: 50px; */
+    padding-top: 30px;
+    float: right;
+    height: 400px;
+    width: 100%;
+}
+section button{
+    background-color: rgb(0, 0, 0);
+    border: none;
+    color: white;
+    padding: 5px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 10px;
+}
+section p{
+    overflow:scroll;
+    height: 340px;
+    overflow-x: hidden;
+    width: 450px;
+}
+h2{
+    font-weight: bold;
+    padding-bottom: 5px;
+}
+a{
+    text-decoration: none;
+    color: #999;
+}
